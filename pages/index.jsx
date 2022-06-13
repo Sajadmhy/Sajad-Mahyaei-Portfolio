@@ -45,7 +45,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Experience &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>My Experience working with different projects and clients</p>
           </a>
 
           <a
@@ -54,7 +54,7 @@ export default function Home() {
           >
             <h2>Technologies &rarr;</h2>
             <p>
-              After running, this repl is automatically deployed on replit!
+              Technologies and stack that I have experience working with
             </p>
           </a>
         </div>
