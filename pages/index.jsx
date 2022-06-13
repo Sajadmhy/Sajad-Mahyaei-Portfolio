@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Image
-          src="/profile.png"
+          src="/profile.webp"
           width={200}
           height={200}
           alt="Sajad Mahyaei"
@@ -30,7 +30,7 @@ export default function Home() {
 <div className={styles.icons}>
       <a href="https://linkedin.com/in/sajadmhy">
     <Image 
-      src="/linkedin-icon.png"
+      src="/linkedin-icon.webp"
       width={40}
       height={40}
       alt="linkedin Icon"
@@ -39,7 +39,7 @@ export default function Home() {
 
         <a href="https://twitter.com/sajadmhy">
           <Image 
-            src="/twitter-icon.png"
+            src="/twitter-icon.webp"
             width={40}
             height={40}
             alt="twitter Icon"
@@ -48,7 +48,7 @@ export default function Home() {
 
         <a href="https://github.com/sajadmhy">
           <Image 
-            src="/github-icon.png"
+            src="/github-icon.webp"
             width={40}
             height={40}
             alt="github Icon"
@@ -57,7 +57,7 @@ export default function Home() {
 
         <a href="mailto:sajad.mahyaei@gmail.com">
           <Image 
-            src="/gmail-icon.png"
+            src="/gmail-icon.webp"
             width={40}
             height={40}
             alt="Gmail Icon"
@@ -66,6 +66,7 @@ export default function Home() {
       </div>
         
         <div className={styles.grid}>
+          
           <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/bio">
           <a className={styles.card}>
             <h2>Biography &rarr;</h2>
@@ -73,36 +74,36 @@ export default function Home() {
           </a>
           </Link>
 
-          <a href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/projects" className={styles.card}>
+          <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/projects">
+          <a className={styles.card}>
             <h2>Projects &rarr;</h2>
             <p>Learn about my ongoing projects and technologies!</p>
           </a>
+          </Link>
 
-          <a
-            href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/experience"
-            className={styles.card}
-          >
+          <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/experience">
+          <a className={styles.card}>
             <h2>Experience &rarr;</h2>
             <p>My Experience working with different projects and clients</p>
           </a>
+          </Link>
 
-          <a
-            href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/technologies"
-            className={styles.card}
-          >
+          <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/technologies">
+          <a className={styles.card}>
             <h2>Technologies &rarr;</h2>
             <p>
               Technologies and stack that I have experience working with
             </p>
           </a>
+          </Link>
+          
         </div>
       </main>
       
       <footer className={styles.footer}>
         <a
           href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/"
-          target="_blank"
-          rel="noopener noreferrer"
+
         >
           Made with ❤️ by Sajad Mahyaei
         </a>
