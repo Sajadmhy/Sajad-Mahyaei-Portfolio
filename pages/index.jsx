@@ -37,7 +37,7 @@ export default function Home() {
 
           <a href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/projects" className={styles.card}>
             <h2>Projects &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Learn about my ongoing projects and technologies!</p>
           </a>
 
           <a
