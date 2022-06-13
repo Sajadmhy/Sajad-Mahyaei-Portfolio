@@ -59,13 +59,21 @@
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.icons {
+  display: flex;
+  gap: 10px;
+  margin:10px 0;
+}
+
+.icons a {
+  display: block;
+  height: 45px;
+  transition: 0.15s ease;
+}
+
+.icons a:hover {
+  border-bottom: solid;
+  border-color: #0070f3;
 }
 
 .grid {
@@ -117,6 +125,10 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .card {
+  width: 80%;
+}
 }
 
 
@@ -138,3 +150,4 @@
   70% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
  100% { transform: rotate( 0.0deg) }
 }
+

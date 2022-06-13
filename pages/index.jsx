@@ -27,11 +27,49 @@ export default function Home() {
           I'm Sajad, a MERN stack Software Engineer
         </p>
 
+<div className={styles.icons}>
+      <a href="https://linkedin.com/in/sajadmhy">
+    <Image 
+      src="/linkedin-icon.png"
+      width={40}
+      height={40}
+      alt="linkedin Icon"
+      />
+      </a>
+
+        <a href="https://twitter.com/sajadmhy">
+          <Image 
+            src="/twitter-icon.png"
+            width={40}
+            height={40}
+            alt="twitter Icon"
+            />
+        </a>
+
+        <a href="https://github.com/sajadmhy">
+          <Image 
+            src="/github-icon.png"
+            width={40}
+            height={40}
+            alt="github Icon"
+            />
+        </a>
+
+        <a href="mailto:sajad.mahyaei@gmail.com">
+          <Image 
+            src="/gmail-icon.png"
+            width={40}
+            height={40}
+            alt="Gmail Icon"
+            />
+        </a>
+      </div>
+        
         <div className={styles.grid}>
           <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/bio">
           <a className={styles.card}>
             <h2>Biography &rarr;</h2>
-            <p>Find in-depth information about Sajad</p>
+            <p>Find in-depth information about Sajad Mahyaei</p>
           </a>
           </Link>
 
@@ -59,15 +97,14 @@ export default function Home() {
           </a>
         </div>
       </main>
-
+      
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Vercel
-            and Replit
+          Made with ❤️ by Sajad Mahyaei
         </a>
       </footer>
     </div>
