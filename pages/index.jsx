@@ -8,6 +8,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Sajad Mahyaei Portfolio</title>
+        <meta property="og:url" content="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Sajad's Portfolio"/>
+        <meta property="og:image" content="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/favicon.png"/>
         <meta name="description" content="Made by Next.js with Love" />
         <link rel="icon" href="/favicon.png" />
       </Head>
@@ -28,7 +32,7 @@ export default function Home() {
         </p>
 
 <div className={styles.icons}>
-      <a href="https://linkedin.com/in/sajadmhy">
+      <a target="_blank"  href="https://linkedin.com/in/sajadmhy">
     <Image 
       src="/linkedin-icon.webp"
       width={40}
@@ -37,7 +41,7 @@ export default function Home() {
       />
       </a>
 
-        <a href="https://twitter.com/sajadmhy">
+        <a target="_blank"  href="https://twitter.com/sajadmhy">
           <Image 
             src="/twitter-icon.webp"
             width={40}
@@ -46,7 +50,7 @@ export default function Home() {
             />
         </a>
 
-        <a href="https://github.com/sajadmhy">
+        <a target="_blank"  href="https://github.com/sajadmhy">
           <Image 
             src="/github-icon.webp"
             width={40}
@@ -61,6 +65,15 @@ export default function Home() {
             width={40}
             height={40}
             alt="Gmail Icon"
+            />
+        </a>
+
+  <a href="/Sajad-Mahyaei-Web-Dev.pdf" download>
+          <Image 
+            src="/resume-icon.png"
+            width={35}
+            height={35}
+            alt="resume Icon"
             />
         </a>
       </div>

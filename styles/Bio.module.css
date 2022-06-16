@@ -44,6 +44,7 @@
 }
 
 .card {
+  position: relative;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -115,4 +116,38 @@
 .backBtn:focus,
 .backBtn:active {
   text-decoration: underline;
+}
+
+.btns {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  transition:0.3s ;
+}
+
+.btns button {
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  transition:0.3s ;
+}
+
+.btns button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.code {
+  margin:5px;
+}
+
+.preview {
+  margin: 5px;
 }
