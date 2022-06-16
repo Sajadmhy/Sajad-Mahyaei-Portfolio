@@ -42,7 +42,7 @@ export default function Experience() {
           </div>
 
            <div className={styles.card}>
-            <h2>Sana Gostar Sabz &darr;</h2>
+            <h2>Digital Marketing Intern - Sana Gostar Sabz &darr;</h2>
             <p><li>Lead an off-page SEO campaign that ranked the website on the top 3 results of Google</li>
             <li>Raised brand awareness with Twitter marketing
 </li>
@@ -50,7 +50,7 @@ export default function Experience() {
           </div>
 
           <div className={styles.card}>
-            <h2>Rekab &darr;</h2>
+            <h2>Content Writer - Rekab &darr;</h2>
             <p><li>Wrote daily articles for the blog</li>
             <li>Generated copies for different ad campaigns</li>
             </p>

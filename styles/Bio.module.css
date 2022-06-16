@@ -137,6 +137,7 @@
   border-radius: 10px;
   border-style: none;
   transition:0.3s ;
+  width: 100px;
 }
 
 .btns button:hover {
@@ -144,10 +145,6 @@
   background-color: lightgray;
 }
 
-.code {
+.code , .preview {
   margin:5px;
-}
-
-.preview {
-  margin: 5px;
 }
