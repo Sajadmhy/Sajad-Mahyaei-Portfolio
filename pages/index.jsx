@@ -8,10 +8,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Sajad Mahyaei Portfolio</title>
-        <meta property="og:url" content="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/"/>
+        <meta property="og:url" content="https://sajad.codes/"/>
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Sajad's Portfolio"/>
-        <meta property="og:image" content="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/favicon.png"/>
+        <meta property="og:image" content="/favicon.png"/>
         <meta name="description" content="Made by Next.js with Love" />
         <link rel="icon" href="/favicon.png" />
       </Head>
@@ -22,6 +22,7 @@ export default function Home() {
           width={200}
           height={200}
           alt="Sajad Mahyaei"
+          priority
           />
         <h1 className={styles.title}>
           Hi there <span className={styles.emoji}>👋</span>
@@ -38,6 +39,7 @@ export default function Home() {
       width={40}
       height={40}
       alt="linkedin Icon"
+      priority
       />
       </a>
 
@@ -47,6 +49,7 @@ export default function Home() {
             width={40}
             height={40}
             alt="twitter Icon"
+            priority
             />
         </a>
 
@@ -56,15 +59,17 @@ export default function Home() {
             width={40}
             height={40}
             alt="github Icon"
+            priority
             />
         </a>
 
         <a href="mailto:hi@sajad.codes">
           <Image 
-            src="/gmail-icon.webp"
+            src="/email-icon.webp"
             width={40}
             height={40}
-            alt="Gmail Icon"
+            alt="Email Icon"
+            priority
             />
         </a>
 
@@ -74,34 +79,35 @@ export default function Home() {
             width={35}
             height={35}
             alt="resume Icon"
+            priority
             />
         </a>
       </div>
         
         <div className={styles.grid}>
           
-          <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/bio">
+          <Link href="/bio">
           <a className={styles.card}>
             <h2>Biography &rarr;</h2>
             <p>Find in-depth information about Sajad Mahyaei</p>
           </a>
           </Link>
 
-          <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/projects">
+          <Link href="/projects">
           <a className={styles.card}>
             <h2>Projects &rarr;</h2>
             <p>Learn about my ongoing projects and technologies!</p>
           </a>
           </Link>
 
-          <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/experience">
+          <Link href="/experience">
           <a className={styles.card}>
             <h2>Experience &rarr;</h2>
             <p>My Experience working with different projects and clients</p>
           </a>
           </Link>
 
-          <Link href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/technologies">
+          <Link href="/technologies">
           <a className={styles.card}>
             <h2>Technologies &rarr;</h2>
             <p>
@@ -115,7 +121,7 @@ export default function Home() {
       
       <footer className={styles.footer}>
         <a
-          href="https://sajad-mahyaei-portfolio.sajadmhy.repl.co/"
+          href="/"
 
         >
           Made with ❤️ by Sajad Mahyaei

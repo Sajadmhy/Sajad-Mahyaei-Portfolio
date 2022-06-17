@@ -12,6 +12,7 @@ export default function Bio() {
           width={200}
           height={200}
           alt="Sajad Mahyaei"
+          priority
           />
         <h1 className={styles.title}>
           Biography <span className={styles.emoji}>📝</span>

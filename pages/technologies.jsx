@@ -12,6 +12,7 @@ export default function Technologies() {
           width={200}
           height={200}
           alt="Sajad Mahyaei"
+          priority
           />
         <h1 className={styles.title}>
           Technologies <span className={styles.emoji}>🔧</span>
