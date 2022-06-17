@@ -74,7 +74,7 @@ export default function Projects() {
 
           <div className={styles.card} onMouseEnter={() => handleShow(2)} onMouseLeave={() => handleHide(2)}>
             <h2>Location Sharing Modal</h2>
-            <p>An app to save a user's location with React.js, ContextAPI and Leaflet.js</p>
+            <p>An app to save a user&apos;s location with React.js, ContextAPI and Leaflet.js</p>
             <Image 
               src="/location-modal.png"
               width={300}

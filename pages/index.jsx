@@ -28,7 +28,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          I'm Sajad, a MERN stack Software Engineer
+          I&apos;m Sajad, a MERN stack Software Engineer
         </p>
 
 <div className={styles.icons}>
