@@ -32,7 +32,7 @@ export default function Home() {
         </p>
 
 <div className={styles.icons}>
-      <a target="_blank"  href="https://linkedin.com/in/sajadmhy">
+      <a target="_blank" rel="noreferrer"  href="https://linkedin.com/in/sajadmhy">
     <Image 
       src="/linkedin-icon.webp"
       width={40}
@@ -41,7 +41,7 @@ export default function Home() {
       />
       </a>
 
-        <a target="_blank"  href="https://twitter.com/sajadmhy">
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/sajadmhy">
           <Image 
             src="/twitter-icon.webp"
             width={40}
@@ -50,7 +50,7 @@ export default function Home() {
             />
         </a>
 
-        <a target="_blank"  href="https://github.com/sajadmhy">
+        <a target="_blank" rel="noreferrer" href="https://github.com/sajadmhy">
           <Image 
             src="/github-icon.webp"
             width={40}
