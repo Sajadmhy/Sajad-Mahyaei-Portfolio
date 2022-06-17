@@ -47,9 +47,9 @@ export default function Projects() {
               alt="gmail clone project"
               />
             <div className={styles.btns} style={{display: showButtons[0] ? 'flex' : 'none'}} >
-              <a href="https://github.com/Sajadmhy/gmail-clone" className={styles.code}>
+              <a target="_blank" href="https://github.com/Sajadmhy/gmail-clone" className={styles.code}>
             <button>Code</button></a>
-            <a href="https://main--deluxe-churros-437829.netlify.app/" className={styles.preview}>            
+            <a target="_blank" href="https://main--deluxe-churros-437829.netlify.app/" className={styles.preview}>            
             <button>Preview</button></a>
             </div>
             
@@ -65,9 +65,9 @@ export default function Projects() {
               alt="crud exchange app"
               />
             <div className={styles.btns} style={{display: showButtons[1] ? 'flex' : 'none'}} >
-            <a href="https://github.com/Sajadmhy/WW-client" className={styles.code}>
+            <a target="_blank" href="https://github.com/Sajadmhy/WW-client" className={styles.code}>
             <button>Code</button></a>
-            <a href="https://stately-zabaione-b81df0.netlify.app/" className={styles.preview}>            
+            <a target="_blank" href="https://stately-zabaione-b81df0.netlify.app/" className={styles.preview}>            
             <button>Preview</button></a>
             </div>
           </div>
@@ -82,9 +82,9 @@ export default function Projects() {
               alt="location sharing modal"
               />
             <div className={styles.btns} style={{display: showButtons[2] ? 'flex' : 'none'}} >
-            <a href="https://github.com/Sajadmhy/location-sharing-modal" className={styles.code}>
+            <a target="_blank" href="https://github.com/Sajadmhy/location-sharing-modal" className={styles.code}>
             <button>Code</button></a>
-            <a href="https://sajadmhy.github.io/location-sharing-modal" className={styles.preview}>            
+            <a target="_blank" href="https://sajadmhy.github.io/location-sharing-modal" className={styles.preview}>            
             <button>Preview</button></a>
             </div>
           </div>
@@ -99,9 +99,9 @@ export default function Projects() {
               alt="Battleship"
               />
             <div className={styles.btns} style={{display: showButtons[3] ? 'flex' : 'none'}} >
-            <a href="https://github.com/Sajadmhy/Battleship" className={styles.code}>
+            <a target="_blank" href="https://github.com/Sajadmhy/Battleship" className={styles.code}>
             <button>Code</button></a>
-            <a href="https://sajadmhy.github.io/Battleship/" className={styles.preview}>            
+            <a target="_blank" href="https://sajadmhy.github.io/Battleship/" className={styles.preview}>            
             <button>Preview</button></a>
             </div>
           </div>

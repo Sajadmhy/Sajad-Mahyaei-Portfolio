@@ -59,7 +59,7 @@ export default function Home() {
             />
         </a>
 
-        <a href="mailto:sajad.mahyaei@gmail.com">
+        <a href="mailto:hi@sajad.codes">
           <Image 
             src="/gmail-icon.webp"
             width={40}
