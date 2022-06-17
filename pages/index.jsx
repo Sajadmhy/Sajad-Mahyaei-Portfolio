@@ -120,12 +120,11 @@ export default function Home() {
       </main>
       
       <footer className={styles.footer}>
-        <a
-          href="/"
-
-        >
+        <Link href="/">
+        <a>
           Made with ❤️ by Sajad Mahyaei
         </a>
+        </Link>
       </footer>
     </div>
   )
