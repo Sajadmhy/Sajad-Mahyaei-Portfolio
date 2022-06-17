@@ -25,7 +25,7 @@ export default function Projects() {
 
       <main className={styles.main}>
         <Image
-          src="/profile.png"
+          src="/profile.webp"
           width={200}
           height={200}
           alt="Sajad Mahyaei"
