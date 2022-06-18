@@ -41,6 +41,7 @@ export default function Bio() {
             <p><li>Building Web Apps</li>
             <li>Networking</li>
               <li>Learning new Techs</li>
+              <li>Designing Logos</li>
             </p>
           </div>
 
@@ -49,6 +50,7 @@ export default function Bio() {
             <p><li>Harry Potter fan</li>
             <li>Love helping people</li>
               <li>OCD/ADHD pal</li>
+              <li>Love Batman</li>
             </p>
           </div>
           
