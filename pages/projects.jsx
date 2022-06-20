@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function Projects() {
 
-  const [showButtons, setShowButtons] = useState([false,false,false,false]);
+  const [showButtons, setShowButtons] = useState([false,false,false,false,false]);
 
   function handleShow(index) {
     const btns = [...showButtons]
@@ -106,6 +106,24 @@ export default function Projects() {
             <button>Preview</button></a>
             </div>
           </div>
+
+          <div className={styles.card} onMouseEnter={() => handleShow(4)} onMouseLeave={() => handleHide(4)}>
+            <h2>Memory Card Game</h2>
+            <p>A memory card game created with React and Pure CSS</p>
+            <Image 
+              src="/memory-card.png"
+              width={300}
+              height={150}
+              alt="memory card game"
+              />
+            <div className={styles.btns} style={{display: showButtons[4] ? 'flex' : 'none'}} >
+            <a target="_blank" rel="noreferrer" href="https://github.com/Sajadmhy/memory-card-game" className={styles.code}>
+            <button>Code</button></a>
+            <a target="_blank" rel="noreferrer" href="https://sajadmhy.github.io/memory-card-game/" className={styles.preview}>            
+            <button>Preview</button></a>
+            </div>
+          </div>
+
           
         </div>
       </main>
