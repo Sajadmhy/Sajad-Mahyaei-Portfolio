@@ -7,13 +7,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Sajad Mahyaei Portfolio</title>
+        <title>Sajad Mahyaei</title>
         <meta property="og:url" content="https://sajad.codes/"/>
+
+        <meta name="description" content="A Digital Marketer turned Front End Software Engineer." />
+        <link rel="icon" href="/favicon.png" />        
+      
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Sajad's Portfolio"/>
+        <meta property="og:title" content="Sajad Mahyaei"/>
+        <meta property="og:description" content="A Digital Marketer turned Front End Software Engineer."/>
         <meta property="og:image" content="/favicon.png"/>
-        <meta name="description" content="Made by Next.js with Love" />
-        <link rel="icon" href="/favicon.png" />
+
       </Head>
 
       <main className={styles.main}>
