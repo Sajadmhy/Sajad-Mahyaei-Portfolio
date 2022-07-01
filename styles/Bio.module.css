@@ -114,9 +114,9 @@
   text-align: center;
 }
 
-.backBtn:hover,
-.backBtn:focus,
-.backBtn:active {
+.backBtn a:hover,
+.backBtn a:focus,
+.backBtn a:active {
   text-decoration: underline;
 }
 
