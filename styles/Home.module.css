@@ -68,12 +68,22 @@
 .icons a {
   display: block;
   height: 45px;
-  transition: 0.15s ease;
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    rgb(80, 156, 255) 90%,
+    rgb(80, 156, 255) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  transition: background-size 300ms;
 }
 
 .icons a:hover {
-  border-bottom: solid;
-  border-color: #0070f3;
+  background-size: 100% 100%;
+  background-position-x: left ;
 }
 
 .grid {
