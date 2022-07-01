@@ -149,7 +149,7 @@ export default function Projects() {
           
         </div>
       </main>
-      <h2>
+      <h2 className={styles.backBtn}>
         <Link href="/">
           <a className={styles.backBtn}>&larr; Back to home</a>
         </Link>

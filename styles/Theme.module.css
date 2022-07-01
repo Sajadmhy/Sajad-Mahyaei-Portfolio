@@ -54,3 +54,11 @@
   }
   .cbx:disabled ~ label:after { background: #bcbdbc; }
   .hidden { display: none; }
+
+  @media screen and (max-width: 600px) {
+    .content {
+      left: 50%;
+      transform: translate(-50%, -100%);
+    }
+  }
+    

@@ -63,13 +63,13 @@ export default function Bio() {
           
         </div>
       </main>
-      <h2>
+      <h2 className={styles.backBtn}>
         <Link href="/">
-          <a className={styles.backBtn}>&larr; Back to home</a>
+          <a>&larr; Back to home</a>
         </Link>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Link href='/projects'>
-          <a className={styles.backBtn}> Continue to Projects &rarr;</a>
+          <a> Continue to Projects &rarr;</a>
         </Link>
       </h2>
     </div>

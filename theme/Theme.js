@@ -15,7 +15,7 @@ export default function Theme({ children }) {
   return (
     <ThemeContext.Provider value={[theme]}>
 
-    <div className={styles.container}>
+    <div className={styles.container} style={{backgroundColor: theme === 'light' ? 'white' : 'black'}}>
     <div className={styles.content}>
       <picture>
         <img src={theme === 'light' ? "/light-mode-black.png" : "/light-mode-color.png"} alt='sun icon'/>

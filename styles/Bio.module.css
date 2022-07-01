@@ -20,7 +20,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .title,
@@ -110,6 +110,8 @@
 .backBtn {
   color: #0070f3;
   text-decoration: none;
+  display: flex;
+  text-align: center;
 }
 
 .backBtn:hover,
@@ -156,5 +158,5 @@
   top: 50px;
   z-index: 100;
   left: 50%;
-  transform: translate(-180px, 0);
+  transform: translate(-155px, 0);
 }
