@@ -120,12 +120,11 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-
   .card {
   width: 80%;
 }
@@ -151,3 +150,13 @@
  100% { transform: rotate( 0.0deg) }
 }
 
+
+.backArrow {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  top: 50px;
+  z-index: 100;
+  left: 50%;
+  transform: translate(-180px, 0);
+}

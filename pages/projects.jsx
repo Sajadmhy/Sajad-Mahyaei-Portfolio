@@ -2,9 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Bio.module.css'
 import { useState } from 'react'
+import { useContext } from 'react'
+import { ThemeContext } from '../theme/Theme'
 
 export default function Projects() {
-
+  const [theme] = useContext(ThemeContext);
   const [showButtons, setShowButtons] = useState([false,false,false,false,false,false]);
 
   function handleShow(index) {
@@ -24,8 +26,11 @@ export default function Projects() {
     <div className={styles.container}>
 
       <main className={styles.main}>
+      <Link href="/">
+      <a><span className={styles.backArrow}>&larr;</span></a>
+      </Link>
         <Image
-          src="/profile.webp"
+          src={theme ==='light' ? "/profile.webp" : "/batman-profile.png"}
           width={200}
           height={200}
           alt="Sajad Mahyaei"
@@ -147,6 +152,10 @@ export default function Projects() {
       <h2>
         <Link href="/">
           <a className={styles.backBtn}>&larr; Back to home</a>
+        </Link>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <Link href='/experience'>
+          <a className={styles.backBtn}> Continue to Experience &rarr;</a>
         </Link>
       </h2>
     </div>

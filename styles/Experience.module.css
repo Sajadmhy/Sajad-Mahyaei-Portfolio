@@ -113,3 +113,13 @@
 .backBtn:active {
   text-decoration: underline;
 }
+
+.backArrow {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  top: 50px;
+  z-index: 100;
+  left: 50%;
+  transform: translate(-180px, 0);
+}

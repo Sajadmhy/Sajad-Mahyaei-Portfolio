@@ -2,8 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import { useContext } from 'react'
+import { ThemeContext } from '../theme/Theme'
 
 export default function Home() {
+  const [theme] = useContext(ThemeContext);
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -22,18 +26,18 @@ export default function Home() {
 
       <main className={styles.main}>
         <Image
-          src="/profile.webp"
+          src={theme ==='light' ? "/profile.webp" : "/batman-profile.png"}
           width={200}
           height={200}
           alt="Sajad Mahyaei"
           priority
           />
         <h1 className={styles.title}>
-          Hi there <span className={styles.emoji}>👋</span>
+          Hi there <span className={styles.emoji}>{theme === 'light'? '👋' : '🦇'}</span>
         </h1>
 
         <p className={styles.description}>
-          I&apos;m Sajad, a MERN stack Software Engineer
+          I&apos;m {theme === 'light' ? 'Sajad' : 'Batman'}, a MERN stack Software Engineer
         </p>
 
 <div className={styles.icons}>
@@ -59,7 +63,7 @@ export default function Home() {
 
         <a target="_blank" rel="noreferrer" href="https://github.com/sajadmhy">
           <Image 
-            src="/github-icon.webp"
+            src="/github-icon.png"
             width={40}
             height={40}
             alt="github Icon"
@@ -93,7 +97,7 @@ export default function Home() {
           <Link href="/bio">
           <a className={styles.card}>
             <h2>Biography &rarr;</h2>
-            <p>Find in-depth information about Sajad Mahyaei</p>
+            <p>Find in-depth information about Sajad Mahyaei {theme === 'light' ? '' : `(heard he's cool)`}</p>
           </a>
           </Link>
 
