@@ -15,23 +15,24 @@ export default function Home() {
         <meta property="og:url" content="https://sajad.codes/"/>
 
         <meta name="description" content="A Digital Marketer turned Front End Software Engineer." />
-        <link rel="icon" href="/favicon.png" />        
+        <link rel="icon" href="/favicon.webp" />        
       
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Sajad Mahyaei"/>
         <meta property="og:description" content="A Digital Marketer turned Front End Software Engineer."/>
-        <meta property="og:image" content="/favicon.png"/>
+        <meta property="og:image" content="/favicon.webp"/>
 
       </Head>
 
       <main className={styles.main}>
         <Image
-          src={theme ==='light' ? "/profile.webp" : "/batman-profile.png"}
+          src={theme ==='light' ? "/profile.webp" : "/batman-profile.webp"}
           width={200}
           height={200}
           alt="Sajad Mahyaei"
           priority
           />
+
         <h1 className={styles.title}>
           Hi there <span className={styles.emoji}>{theme === 'light'? '👋' : '🦇'}</span>
         </h1>
@@ -63,7 +64,7 @@ export default function Home() {
 
         <a target="_blank" rel="noreferrer" href="https://github.com/sajadmhy">
           <Image 
-            src="/github-icon.png"
+            src="/github-icon.webp"
             width={40}
             height={40}
             alt="github Icon"
@@ -83,7 +84,7 @@ export default function Home() {
 
   <a href="/Sajad-Mahyaei-Web-Dev.pdf" download>
           <Image 
-            src="/resume-icon.png"
+            src="/resume-icon.webp"
             width={35}
             height={35}
             alt="resume Icon"

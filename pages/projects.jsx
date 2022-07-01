@@ -30,7 +30,7 @@ export default function Projects() {
       <a><span className={styles.backArrow}>&larr;</span></a>
       </Link>
         <Image
-          src={theme ==='light' ? "/profile.webp" : "/batman-profile.png"}
+          src={theme ==='light' ? "/profile.webp" : "/batman-profile.webp"}
           width={200}
           height={200}
           alt="Sajad Mahyaei"
@@ -47,7 +47,7 @@ export default function Projects() {
             <h2>Chat App</h2>
             <p>A Chatting app created with Next.js and Context</p>
             <Image 
-              src="/chat.png"
+              src="/chat.webp"
               width={300}
               height={170}
               alt="chat app project"
@@ -64,7 +64,7 @@ export default function Projects() {
             <h2>Gmail Clone App</h2>
             <p>A Gmail clone created with Next.js and Pure CSS and emojis</p>
             <Image 
-              src="/gmail.png"
+              src="/gmail.webp"
               width={300}
               height={170}
               alt="gmail clone project"
@@ -82,7 +82,7 @@ export default function Projects() {
             <h2>CRUD Exchange Orders App</h2>
             <p>A CRUD Application created with Next.js, MaterialUI, Nest.js and MongoDB</p>
             <Image
-              src="/Crud-exchange.png"
+              src="/Crud-exchange.webp"
               width={300}
               height={110}
               alt="crud exchange app"
@@ -99,7 +99,7 @@ export default function Projects() {
             <h2>Location Sharing Modal</h2>
             <p>An app to save a user&apos;s location with React.js, ContextAPI and Leaflet.js</p>
             <Image 
-              src="/location-modal.png"
+              src="/location-modal.webp"
               width={300}
               height={170}
               alt="location sharing modal"
@@ -116,7 +116,7 @@ export default function Projects() {
             <h2>BattleShip Game</h2>
             <p>A game of battleship game created with HTML, CSS and JavaScript</p>
             <Image 
-              src="/battleship.png"
+              src="/battleship.webp"
               width={300}
               height={150}
               alt="Battleship"
@@ -133,7 +133,7 @@ export default function Projects() {
             <h2>Memory Card Game</h2>
             <p>A memory card game created with React and Pure CSS</p>
             <Image 
-              src="/memory-card.png"
+              src="/memory-card.webp"
               width={300}
               height={150}
               alt="memory card game"

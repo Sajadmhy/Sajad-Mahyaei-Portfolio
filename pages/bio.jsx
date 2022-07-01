@@ -15,7 +15,7 @@ export default function Bio() {
       <a><span className={styles.backArrow}>&larr;</span></a>
       </Link>
         <Image
-          src={theme ==='light' ? "/profile.webp" : "/batman-profile.png"}
+          src={theme ==='light' ? "/profile.webp" : "/batman-profile.webp"}
           width={200}
           height={200}
           alt="Sajad Mahyaei"
