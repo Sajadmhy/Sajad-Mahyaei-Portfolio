@@ -3,13 +3,16 @@ import Link from 'next/link'
 import styles from '../styles/Experience.module.css'
 import { useContext } from 'react'
 import { ThemeContext } from '../theme/Theme'
+import Head from 'next/head'
 
 export default function Experience() {
   const [theme] = useContext(ThemeContext);
 
   return (
     <div className={styles.container}>
-
+      <Head>
+        <title>Sajad&apos;s Experience</title>
+      </Head>
       <main className={styles.main}>
       <Link href="/">
       <a><span className={styles.backArrow}>&larr;</span></a>

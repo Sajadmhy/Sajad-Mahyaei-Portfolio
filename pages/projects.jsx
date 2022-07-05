@@ -4,6 +4,7 @@ import styles from '../styles/Bio.module.css'
 import { useState } from 'react'
 import { useContext } from 'react'
 import { ThemeContext } from '../theme/Theme'
+import Head from 'next/head'
 
 export default function Projects() {
   const [theme] = useContext(ThemeContext);
@@ -24,7 +25,9 @@ export default function Projects() {
   
   return (
     <div className={styles.container}>
-
+      <Head>
+        <title>Sajad&apos;s Projects</title>
+      </Head>
       <main className={styles.main}>
       <Link href="/">
       <a><span className={styles.backArrow}>&larr;</span></a>

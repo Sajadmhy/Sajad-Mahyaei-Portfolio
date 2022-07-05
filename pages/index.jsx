@@ -15,7 +15,6 @@ export default function Home() {
         <meta property="og:url" content="https://sajad.codes/"/>
 
         <meta name="description" content="A Digital Marketer turned Front End Software Engineer." />
-        <link rel="icon" href="/favicon.webp" />        
       
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Sajad Mahyaei"/>
