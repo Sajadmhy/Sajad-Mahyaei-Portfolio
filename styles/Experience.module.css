@@ -120,8 +120,15 @@
   position: absolute;
   font-size: 40px;
   font-weight: bold;
-  top: 50px;
+  top: 28px;
   z-index: 100;
-  left: 50%;
-  transform: translate(-155px, 0);
+  left: 23%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .backArrow {
+    left: 50%;
+    transform: translate(-450%, 30%);
+  }
 }
