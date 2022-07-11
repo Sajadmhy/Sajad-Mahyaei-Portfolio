@@ -147,6 +147,7 @@
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
   display: inline-block;
+  user-select: none;
 }
 
 @keyframes wave-animation {

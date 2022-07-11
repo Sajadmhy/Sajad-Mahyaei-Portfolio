@@ -73,7 +73,7 @@ export default function Home() {
 
         <a href="mailto:hi@sajad.codes">
           <Image 
-            src="/email-icon.webp"
+            src="/email.webp"
             width={40}
             height={40}
             alt="Email Icon"

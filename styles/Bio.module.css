@@ -135,6 +135,7 @@
   display: none;
 }
 
+
 .card:hover .btns {
   display: flex;
 } 
