@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Bio.module.css'
-import { useState } from 'react'
 import { useContext } from 'react'
 import { ThemeContext } from '../theme/Theme'
 import Head from 'next/head'
@@ -31,6 +30,23 @@ export default function Projects() {
 
 
         <div className={styles.grid}>
+
+        <div className={styles.card} >
+            <h2>Replit Careers</h2>
+            <p>An aesthetically pleasing replicate of the Replit Careers page</p>
+            <Image 
+              src="/replit.webp"
+              width={300}
+              height={170}
+              alt="replit careers"
+              />
+             <div className={styles.btns} >
+              <a target="_blank" rel="noreferrer" href="https://github.com/Sajadmhy/replit-careers-page" className={styles.code}>
+            <button>Code</button></a>
+            <a target="_blank" rel="noreferrer" href="https://replit.sajad.codes" className={styles.preview}>            
+            <button>Preview</button></a>
+            </div>
+          </div>
 
           <div className={styles.card} >
             <h2>Chat App</h2>
