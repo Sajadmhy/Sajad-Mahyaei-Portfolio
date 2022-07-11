@@ -29,7 +29,7 @@ export default function Theme({ children }) {
         <img src={theme === 'light' ? "/night-mode-black.webp" : "/night-mode-color.webp"} alt='moon icon'/>
         </picture>
     </div>
-      <main style={{backgroundColor: theme === 'light' ? 'white' : 'black', color: theme === 'light' ? 'black' : 'white'}}>{children}</main>
+      <main style={{backgroundColor: theme === 'light' ? 'white' : 'black', color: theme === 'light' ? 'black' : 'white', transition: '0.2s'}}>{children}</main>
     </div>
     </ThemeContext.Provider>
   )
