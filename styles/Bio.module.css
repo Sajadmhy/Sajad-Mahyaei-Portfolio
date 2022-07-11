@@ -132,7 +132,12 @@
   align-items: center;
   border-radius: 9px;
   transition:0.3s ;
+  display: none;
 }
+
+.card:hover .btns {
+  display: flex;
+} 
 
 .btns button {
   padding: 10px;
