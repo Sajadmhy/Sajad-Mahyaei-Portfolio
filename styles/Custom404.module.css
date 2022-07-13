@@ -6,3 +6,16 @@
     justify-content: center;
     align-items: center;
 }
+
+.backBtn {
+    color: #0070f3;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+}
+
+.backBtn a:hover,
+.backBtn a:focus,
+.backBtn a:active {
+  text-decoration: underline;
+}

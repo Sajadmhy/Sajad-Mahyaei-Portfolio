@@ -76,6 +76,7 @@
 
 .card li {
   margin: 1rem 0;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 700px) {

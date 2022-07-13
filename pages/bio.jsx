@@ -32,7 +32,7 @@ export default function Bio() {
 
         <div className={styles.grid}>
           <div className={styles.card}>
-            <h2>Education &darr;</h2>
+            <h2>Education</h2>
             <p><li>Sampad High School </li>
             <li>Bu-ali Sina University (Eng.)</li>
               <li>K.N Toosi University (Eng.)</li>
@@ -40,7 +40,7 @@ export default function Bio() {
           </div>
 
           <div className={styles.card}>
-            <h2>Coding Education &darr;</h2>
+            <h2>Coding Education</h2>
             <p><li>LinkedIn Learning</li>
               <li>The Odin Project Boot Camp</li>
               <li>100 Devs</li>
@@ -48,7 +48,7 @@ export default function Bio() {
           </div>
 
           <div className={styles.card}>
-            <h2>Hobbies &darr;</h2>
+            <h2>Hobbies</h2>
             <p><li>Building Web Apps</li>
             <li>Networking</li>
               <li>Learning new Techs</li>
@@ -57,7 +57,7 @@ export default function Bio() {
           </div>
 
            <div className={styles.card}>
-            <h2>Fun Facts &darr;</h2>
+            <h2>Fun Facts</h2>
             <p><li>Harry Potter {theme === 'light' ? '' : 'is my'} fan</li>
             <li>Love {theme === 'light' ? 'helping people' : 'catching criminals'}</li>
               <li>OCD/ADHD pal</li>

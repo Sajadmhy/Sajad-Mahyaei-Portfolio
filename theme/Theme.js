@@ -15,7 +15,7 @@ export default function Theme({ children }) {
   return (
     <ThemeContext.Provider value={[theme]}>
 
-    <div className={styles.container} style={{backgroundColor: theme === 'light' ? 'white' : 'black'}}>
+    <div className={styles.container} style={{backgroundColor: theme === 'light' ? 'white' : '#0F1425'}}>
     <div className={styles.content}>
       <picture>
         <img src={theme === 'light' ? "/light-mode-black.webp" : "/light-mode-color.webp"} alt='sun icon'/>
@@ -29,7 +29,7 @@ export default function Theme({ children }) {
         <img src={theme === 'light' ? "/night-mode-black.webp" : "/night-mode-color.webp"} alt='moon icon'/>
         </picture>
     </div>
-      <main style={{backgroundColor: theme === 'light' ? 'white' : 'black', color: theme === 'light' ? 'black' : 'white', transition: '0.2s'}}>{children}</main>
+      <main style={{backgroundColor: theme === 'light' ? 'white' : '#0F1425', color: theme === 'light' ? 'black' : 'white', transition: '0.2s'}}>{children}</main>
     </div>
     </ThemeContext.Provider>
   )

@@ -13,6 +13,7 @@ export default function Technologies() {
       <Head>
         <title>Sajad&apos;s Tech Stack</title>
       </Head>
+
       <main className={styles.main}>
       <Link href="/">
       <a><span className={styles.backArrow}>&larr;</span></a>
@@ -32,35 +33,35 @@ export default function Technologies() {
         <div className={styles.grid}>
           
           <div className={styles.card}>
-            <h2>Front End Techs &darr;</h2>
-            <p><li>HTML5</li>
+            <h2>Front End Techs</h2>
+            <ul><li>HTML5</li>
             <li>CSS3</li>
               <li>JavaScript</li>
               <li>React.js / Hooks / Context</li>
               <li>Next.js</li>
               <li>MaterialUI</li>
               <li>TailwindCSS</li>
-            </p>
+            </ul>
           </div>
 
           <div className={styles.card}>
-            <h2>Back End Techs &darr;</h2>
-            <p><li>Node.js</li>
+            <h2>Back End Techs</h2>
+            <ul><li>Node.js</li>
               <li>Express.js</li>
               <li>GraphQL</li>
               <li>RestAPI</li>
               <li>Nest.js</li>
               <li>MongoDB</li>
               <li>TypeScript</li>
-            </p>
+            </ul>
           </div>
 
           <div className={styles.card}>
-            <h2>Others &darr;</h2>
-            <p><li>Git</li>
+            <h2>Others</h2>
+            <ul><li>Git</li>
             <li>Jest</li>
               <li>NPM</li>
-            </p>
+            </ul>
           </div>
           
         </div>
