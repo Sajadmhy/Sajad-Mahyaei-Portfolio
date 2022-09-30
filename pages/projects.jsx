@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Bio.module.css'
+import styles from '../styles/Projects.module.css'
 import { useContext } from 'react'
 import { ThemeContext } from '../theme/Theme'
 import Head from 'next/head'
@@ -34,6 +34,7 @@ export default function Projects() {
           <div className={styles.card} >
             <h2>Replit Careers</h2>
             <p>An aesthetically pleasing replicate of the Replit Careers page</p>
+            <div className={styles.space}></div>
             <Image
               src="/replit.webp"
               width={300}
@@ -51,6 +52,7 @@ export default function Projects() {
           <div className={styles.card} >
             <h2>Chat App</h2>
             <p>A Chatting app created with Next.js and ContextAPI</p>
+            <div className={styles.space}></div>
             <Image
               src="/chat.webp"
               width={300}
@@ -68,6 +70,7 @@ export default function Projects() {
           <div className={styles.card}>
             <h2>Gmail Clone App</h2>
             <p>A Gmail clone created with Next.js and Pure CSS and emojis</p>
+            <div className={styles.space}></div>
             <Image
               src="/gmail.webp"
               width={300}
@@ -86,6 +89,7 @@ export default function Projects() {
           <div className={styles.card} >
             <h2>CRUD Exchange Orders App</h2>
             <p>A CRUD Application created with Next.js, MaterialUI, Nest.js and MongoDB</p>
+            <div className={styles.space}></div>
             <Image
               src="/Crud-exchange.webp"
               width={300}
@@ -103,6 +107,7 @@ export default function Projects() {
           <div className={styles.card} >
             <h2>Location Sharing Modal</h2>
             <p>An app to save a user&apos;s location with React.js, ContextAPI and Leaflet.js</p>
+            <div className={styles.space}></div>
             <Image
               src="/location-modal.webp"
               width={300}
@@ -120,6 +125,7 @@ export default function Projects() {
           <div className={styles.card} >
             <h2>BattleShip Game</h2>
             <p>A game of battleship created with HTML, CSS and JavaScript</p>
+            <div className={styles.space}></div>
             <Image
               src="/battleship.webp"
               width={300}
@@ -137,6 +143,7 @@ export default function Projects() {
           <div className={styles.card} >
             <h2>Memory Card Game</h2>
             <p>A memory card game created with React and Pure CSS</p>
+            <div className={styles.space}></div>
             <Image
               src="/memory-card.webp"
               width={300}

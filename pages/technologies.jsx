@@ -41,6 +41,7 @@ export default function Technologies() {
               <li>Next.js</li>
               <li>MaterialUI</li>
               <li>TailwindCSS</li>
+              <li>Bootstrap</li>
             </ul>
           </div>
 
@@ -53,6 +54,7 @@ export default function Technologies() {
               <li>Nest.js</li>
               <li>MongoDB</li>
               <li>TypeScript</li>
+              <li>Strapi.io</li>
             </ul>
           </div>
 

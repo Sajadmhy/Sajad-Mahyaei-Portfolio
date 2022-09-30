@@ -30,33 +30,45 @@ export default function Experience() {
 
 
         <div className={styles.grid}>
+
+        <div className={styles.card}>
+            <h2>FrontEnd Engineer - Lolo Co</h2>
+            <p>
+              <li>Collaborate with designers to build modern, resposive web applications</li>
+              <li>Developed web applications using Strapi.io for the CMS and TailwindCSS for styling</li>
+            </p>
+          </div>
+
           <div className={styles.card}>
             <h2>Full Stack Engineer - 100 Devs</h2>
-            <p><li>Collaborated with a team of developers to build modern, responsive web applications using best practices </li>
-            <li>Developed semantically structured full-stack web applications consisting of RESTful APIs serving data to a JavaScript front-end</li>
+            <p>
+              <li>Collaborated with a team of developers to build modern, responsive web applications using best practices </li>
+              <li>Developed semantically structured full-stack web applications consisting of RESTful APIs serving data to a JavaScript front-end</li>
               <li>Reviewed code and utilized unit testing, pair programming, and agile methodologies like SCRUM to guarantee quality code</li>
             </p>
           </div>
 
           <div className={styles.card}>
             <h2>Digital Marketing Specialist - Furlough</h2>
-            <p><li>Lead an SEO marketing campaign for the discord community to grow its size by 300%</li>
+            <p>
+              <li>Lead an SEO marketing campaign for the discord community to grow its size by 300%</li>
               <li>Managed the blog content and youtube videos for optimum exposure</li>
             </p>
           </div>
 
           <div className={styles.card}>
             <h2>Digital Marketing Specialist - Denxa</h2>
-            <p><li>Designed Instagram and Telegram growth strategy and content marketing plan</li>
-            <li>Managed and nurtured Telegram community</li>
+            <p>
+              <li>Designed Instagram and Telegram growth strategy and content marketing plan</li>
+              <li>Managed and nurtured Telegram community</li>
             </p>
           </div>
 
            <div className={styles.card}>
             <h2>Digital Marketing Intern - Sana Gostar Sabz &darr;</h2>
-            <p><li>Lead an off-page SEO campaign that ranked the website on the top 3 results of Google</li>
-            <li>Raised brand awareness with Twitter marketing
-</li>
+            <p>
+              <li>Lead an off-page SEO campaign that ranked the website on the top 3 results of Google</li>
+              <li>Raised brand awareness with Twitter marketing</li>
             </p>
           </div>
 
