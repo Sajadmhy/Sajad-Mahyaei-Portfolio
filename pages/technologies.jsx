@@ -34,11 +34,13 @@ export default function Technologies() {
           
           <div className={styles.card}>
             <h2>Front End Techs</h2>
-            <ul><li>HTML5</li>
-            <li>CSS3</li>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
               <li>JavaScript</li>
-              <li>React.js / Hooks / Context</li>
+              <li>React.js</li>
               <li>Next.js</li>
+              <li>TypeScript</li>
               <li>MaterialUI</li>
               <li>TailwindCSS</li>
               <li>Bootstrap</li>
@@ -47,21 +49,23 @@ export default function Technologies() {
 
           <div className={styles.card}>
             <h2>Back End Techs</h2>
-            <ul><li>Node.js</li>
+            <ul>
+              <li>Node.js</li>
               <li>Express.js</li>
               <li>GraphQL</li>
               <li>RestAPI</li>
               <li>Nest.js</li>
               <li>MongoDB</li>
-              <li>TypeScript</li>
               <li>Strapi.io</li>
+              <li>WordPress</li>
             </ul>
           </div>
 
           <div className={styles.card}>
             <h2>Others</h2>
-            <ul><li>Git</li>
-            <li>Jest</li>
+            <ul>
+              <li>Git</li>
+              <li>Jest</li>
               <li>NPM</li>
             </ul>
           </div>
