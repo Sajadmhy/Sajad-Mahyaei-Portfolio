@@ -34,7 +34,7 @@ export default function Experience() {
         <div className={styles.card}>
             <h2>FrontEnd Engineer - Lolo Co</h2>
             <p>
-              <li>Collaborate with designers to build modern, resposive web applications using Next.js</li>
+              <li>Collaborate with designers to build modern, responsive web applications using Next.js</li>
               <li>Developed web applications using Strapi.io for the CMS and TailwindCSS for styling</li>
             </p>
           </div>
