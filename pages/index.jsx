@@ -37,7 +37,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          I&apos;m {theme === 'light' ? 'Sajad' : 'Batman'}, a MERN stack Software Engineer
+          I&apos;m {theme === 'light' ? 'Sajad' : 'Batman'}, a Front-End Software Engineer
         </p>
 
 <div className={styles.icons}>
