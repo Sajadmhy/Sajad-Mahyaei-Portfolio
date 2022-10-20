@@ -32,15 +32,15 @@ export default function Experience() {
         <div className={styles.grid}>
 
         <div className={styles.card}>
-            <h2>FrontEnd Engineer - Lolo Co</h2>
+            <h2>FrontEnd Engineer Intern - <a href='https://lolo.co' target="_blank" rel="noreferrer">Lolo Co</a></h2>
             <p>
-              <li>Collaborate with designers to build modern, responsive web applications using Next.js</li>
-              <li>Developed web applications using Strapi.io for the CMS and TailwindCSS for styling</li>
+              <li>CCollaborate with designers to build a modern, responsive website to improve the user experience</li>
+              <li>Developed web applications using Strapi.io to facilitate the content management for non-developer admins</li>
             </p>
           </div>
 
           <div className={styles.card}>
-            <h2>Full Stack Engineer - 100 Devs</h2>
+            <h2>Full Stack Engineer Apprentice - 100 Devs</h2>
             <p>
               <li>Collaborated with a team of developers to build modern, responsive web applications using best practices </li>
               <li>Developed semantically structured full-stack web applications consisting of RESTful APIs serving data to a JavaScript front-end</li>

@@ -67,6 +67,10 @@
   font-size: 1.5rem;
 }
 
+.card h2 a {
+  text-decoration: underline;
+}
+
 .card p {
   margin: 0;
   font-size: 1.25rem;
