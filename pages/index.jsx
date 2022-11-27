@@ -13,7 +13,6 @@ export default function Home() {
       <Head>
         <title>Sajad Mahyaei</title>
         <meta property="og:url" content="https://sajad.codes/"/>
-
         <meta name="description" content="A Digital Marketer turned Front End Software Engineer." />
       
         <meta property="og:type" content="website" />
