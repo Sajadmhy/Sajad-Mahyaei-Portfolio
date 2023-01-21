@@ -44,6 +44,7 @@ export default function Technologies() {
               <li>MaterialUI</li>
               <li>TailwindCSS</li>
               <li>Bootstrap</li>
+              <li>Styled Components</li>
             </ul>
           </div>
 
@@ -57,7 +58,7 @@ export default function Technologies() {
               <li>Nest.js</li>
               <li>MongoDB</li>
               <li>Strapi.io</li>
-              <li>WordPress</li>
+              <li>WebSockets</li>
             </ul>
           </div>
 
@@ -66,7 +67,8 @@ export default function Technologies() {
             <ul>
               <li>Git</li>
               <li>Jest</li>
-              <li>NPM</li>
+              <li>Netlify</li>
+              <li>Vercel</li>
             </ul>
           </div>
           

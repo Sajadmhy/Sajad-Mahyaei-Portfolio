@@ -32,9 +32,20 @@ export default function Experience() {
         <div className={styles.grid}>
 
         <div className={styles.card}>
+            <h2>Junior FrontEnd Developer - <a href='https://classeh.com' target="_blank" rel="noreferrer">Classeh</a></h2>
+            <p>
+              <li>Collaborated with a team of frontend developers, backend developers and DevOps engineers on different projects</li>
+              <li>Maintained and improved legacy projects</li>
+              <li>Improved soft skills to facilitate communications and cooperations as a team player</li>
+              <li>Worked alongside product owners to better understand the mission and envision it for the technical team</li>
+              <li>Worked with Agile Scrum Methodology for our sprints</li>
+            </p>
+          </div>
+
+        <div className={styles.card}>
             <h2>FrontEnd Engineer Intern - <a href='https://lolo.co' target="_blank" rel="noreferrer">Lolo Co</a></h2>
             <p>
-              <li>CCollaborate with designers to build a modern, responsive website to improve the user experience</li>
+              <li>Collaborate with designers to build a modern, responsive website to improve the user experience</li>
               <li>Developed web applications using Strapi.io to facilitate the content management for non-developer admins</li>
             </p>
           </div>
@@ -65,7 +76,7 @@ export default function Experience() {
           </div>
 
            <div className={styles.card}>
-            <h2>Digital Marketing Intern - Sana Gostar Sabz &darr;</h2>
+            <h2>Digital Marketing Intern - Sana Gostar Sabz</h2>
             <p>
               <li>Lead an off-page SEO campaign that ranked the website on the top 3 results of Google</li>
               <li>Raised brand awareness with Twitter marketing</li>

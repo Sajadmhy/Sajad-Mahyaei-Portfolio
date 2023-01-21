@@ -31,6 +31,23 @@ export default function Projects() {
 
         <div className={styles.grid}>
 
+
+        <div className={styles.card} >
+            <h2>Rocketie Website</h2>
+            <p>Developed an SEO-friendly NFT website</p>
+            <div className={styles.space}></div>
+            <Image
+              src="/rocketie.webp"
+              width={300}
+              height={170}
+              alt="rocketie website"
+            />
+            <div className={styles.btns} >
+              <a target="_blank" rel="noreferrer" href="https://www.rocketie.com" className={styles.preview}>
+                <button>Preview</button></a>
+            </div>
+          </div>
+
         <div className={styles.card} >
             <h2>Lolo Website</h2>
             <p>Developed a website with Next.js, TailwindCSS and Strapi for the CMS</p>
