@@ -36,7 +36,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          I&apos;m {theme === 'light' ? 'Sajad' : 'Batman'}, a Front-End Software Engineer
+          I&apos;m {theme === 'light' ? 'Sajad' : 'Batman'}, a Full Stack Web Developer at <a target="_blank" rel="noreferrer" href="https://www.paiger.co">Paiger</a>
         </p>
 
 <div className={styles.icons}>
@@ -109,8 +109,8 @@ export default function Home() {
 
           <Link href="/experience">
           <a className={styles.card}>
-            <h2>Experience &rarr;</h2>
-            <p>My Experience working with different projects and clients</p>
+            <h2>Past Experience &rarr;</h2>
+            <p>My Experience working on different projects</p>
           </a>
           </Link>
 

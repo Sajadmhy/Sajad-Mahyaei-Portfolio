@@ -56,9 +56,9 @@ export default function Technologies() {
               <li>GraphQL</li>
               <li>RestAPI</li>
               <li>Nest.js</li>
+              <li>PHP</li>
               <li>MongoDB</li>
               <li>Strapi.io</li>
-              <li>WebSockets</li>
             </ul>
           </div>
 
@@ -69,6 +69,7 @@ export default function Technologies() {
               <li>Jest</li>
               <li>Netlify</li>
               <li>Vercel</li>
+              <li>Chrome Extensions</li>
             </ul>
           </div>
           

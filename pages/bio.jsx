@@ -50,16 +50,16 @@ export default function Bio() {
           <div className={styles.card}>
             <h2>Hobbies</h2>
             <p><li>Building Web Apps</li>
+              <li>Learning New Stuff</li>
+              <li>{theme === 'light' ? 'Design and Art' : 'Riding Batmobile'}</li>
             <li>Networking</li>
-              <li>Learning new Techs</li>
-              <li>{theme === 'light' ? 'Designing Logos' : 'Riding Batmobile'}</li>
             </p>
           </div>
 
            <div className={styles.card}>
             <h2>Fun Facts</h2>
-            <p><li>Harry Potter {theme === 'light' ? '' : 'is my'} fan</li>
             <li>Love {theme === 'light' ? 'helping people' : 'catching criminals'}</li>
+            <p><li>Harry Potter {theme === 'light' ? '' : 'is my'} fan</li>
               <li>OCD/ADHD pal</li>
               <li>Love {theme === 'light' ? 'Batman' : 'Myself'}</li>
             </p>
