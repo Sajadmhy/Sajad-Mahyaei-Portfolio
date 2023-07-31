@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Sajad Mahyaei</title>
-        <meta property="og:url" content="https://sajad.codes/"/>
+        <meta property="og:url" content="https://sajadm.me/"/>
         <meta name="description" content="A Digital Marketer turned Front End Software Engineer." />
       
         <meta property="og:type" content="website" />
@@ -70,7 +70,7 @@ export default function Home() {
             />
         </a>
 
-        <a href="mailto:hi@sajad.codes">
+        <a href="mailto:sajad@paiger.co">
           <Image 
             src="/email.webp"
             width={40}

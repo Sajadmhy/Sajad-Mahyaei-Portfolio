@@ -77,7 +77,7 @@ export default function Projects() {
             <div className={styles.btns} >
               <a target="_blank" rel="noreferrer" href="https://github.com/Sajadmhy/replit-careers-page" className={styles.code}>
                 <button>Code</button></a>
-              <a target="_blank" rel="noreferrer" href="https://replit.sajad.codes" className={styles.preview}>
+              <a target="_blank" rel="noreferrer" href="https://replit.sajadm.me" className={styles.preview}>
                 <button>Preview</button></a>
             </div>
           </div>

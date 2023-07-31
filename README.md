@@ -14,4 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Live Version
 
-you can see the live version <a href="https://sajad.codes/">here</a>
+you can see the live version <a href="https://sajadm.me/">here</a>
