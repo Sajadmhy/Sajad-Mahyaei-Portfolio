@@ -70,7 +70,7 @@ export default function Home() {
             />
         </a>
 
-        <a href="mailto:sajad@paiger.co">
+        <a href="mailto:hi@sajadm.me">
           <Image 
             src="/email.webp"
             width={40}

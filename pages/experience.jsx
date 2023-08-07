@@ -32,6 +32,15 @@ export default function Experience() {
         <div className={styles.grid}>
 
         <div className={styles.card}>
+            <h2>Full Stack Developer - <a href='https://paiger.co' target="_blank" rel="noreferrer">Paiger</a></h2>
+            <p>
+              <li>Developed and managed a dynamic API for job advertisement scraping</li>
+              <li>Designed and implemented a custom Chrome extension enhancing LinkedIn's recruiter functionalities</li>
+              <li>Designed and developed a comprehensive full stack web application empowering users to craft compelling CVs</li>
+            </p>
+          </div>
+
+        <div className={styles.card}>
             <h2>Junior FrontEnd Developer - <a href='https://classeh.com' target="_blank" rel="noreferrer">Classeh</a></h2>
             <p>
               <li>Collaborated with a team of frontend developers, backend developers and DevOps engineers on different projects</li>
