@@ -15,6 +15,8 @@ export default function Custom404() {
                 width={600}
                 height={430}
                 alt="404"
+                priority = {true}
+
             />
             <h2 className={styles.backBtn}>
         <Link href="/">

@@ -22,7 +22,7 @@ export default function Experience() {
           width={200}
           height={200}
           alt="Sajad Mahyaei"
-          priority
+          priority = {true}
           />
         <h1 className={styles.title}>
           Experience <span className={styles.emoji}>💻</span>

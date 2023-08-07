@@ -28,7 +28,7 @@ export default function Home() {
           width={200}
           height={200}
           alt="Sajad Mahyaei"
-          priority
+          priority = {true}
           />
 
         <h1 className={styles.title}>
@@ -46,7 +46,7 @@ export default function Home() {
       width={40}
       height={40}
       alt="linkedin Icon"
-      priority
+      priority = {true}
       />
       </a>
 
@@ -56,7 +56,7 @@ export default function Home() {
             width={40}
             height={40}
             alt="twitter Icon"
-            priority
+            priority = {true}
             />
         </a>
 
@@ -66,7 +66,7 @@ export default function Home() {
             width={40}
             height={40}
             alt="github Icon"
-            priority
+            priority = {true}
             />
         </a>
 
@@ -76,7 +76,7 @@ export default function Home() {
             width={40}
             height={40}
             alt="Email Icon"
-            priority
+            priority = {true}
             />
         </a>
 
@@ -86,7 +86,7 @@ export default function Home() {
             width={35}
             height={35}
             alt="resume Icon"
-            priority
+            priority = {true}
             />
         </a>
       </div>
