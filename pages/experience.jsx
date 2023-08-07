@@ -35,7 +35,7 @@ export default function Experience() {
             <h2>Full Stack Developer - <a href='https://paiger.co' target="_blank" rel="noreferrer">Paiger</a></h2>
             <p>
               <li>Developed and managed a dynamic API for job advertisement scraping</li>
-              <li>Designed and implemented a custom Chrome extension enhancing LinkedIn's recruiter functionalities</li>
+              <li>Designed and implemented a custom Chrome extension enhancing LinkedIn&apos;s recruiter functionalities</li>
               <li>Designed and developed a comprehensive full stack web application empowering users to craft compelling CVs</li>
             </p>
           </div>
