@@ -1,5 +1,4 @@
 [[headers]]
-  for = "/*.webp"
+  for = "/public/*.webp"
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
-
