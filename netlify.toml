@@ -1,4 +1,8 @@
 [[headers]]
-  for = "/public/*.webp"
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/*.webp?*"
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
