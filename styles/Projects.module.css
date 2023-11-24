@@ -151,8 +151,9 @@
     padding: 10px;
     border-radius: 10px;
     border-style: none;
-    transition:0.3s ;
+    transition:0.3s;
     width: 100px;
+    background-color: darkgray;
   }
   
   .btns button:hover {

@@ -1,9 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../styles/Bio.module.css'
-import { useContext } from 'react'
-import { ThemeContext } from '../theme/Theme'
-import Head from 'next/head'
+import Image from "next/image";
+import Link from "next/link";
+import styles from "../styles/Bio.module.css";
+import { useContext } from "react";
+import { ThemeContext } from "../theme/Theme";
+import Head from "next/head";
 
 export default function Technologies() {
   const [theme] = useContext(ThemeContext);
@@ -15,23 +15,23 @@ export default function Technologies() {
       </Head>
 
       <main className={styles.main}>
-      <Link href="/">
-      <a><span className={styles.backArrow}>&larr;</span></a>
-      </Link>
+        <Link href="/">
+          <a>
+            <span className={styles.backArrow}>&larr;</span>
+          </a>
+        </Link>
         <Image
-          src={theme ==='light' ? "/profile.webp" : "/batman-profile.webp"}
+          src={theme === "light" ? "/profile.webp" : "/batman-profile.webp"}
           width={200}
           height={200}
           alt="Sajad Mahyaei"
-          priority = {true}
-          />
+          priority={true}
+        />
         <h1 className={styles.title}>
           Technologies <span className={styles.emoji}>🔧</span>
         </h1>
 
-
         <div className={styles.grid}>
-          
           <div className={styles.card}>
             <h2>Front End Techs</h2>
             <ul>
@@ -72,7 +72,6 @@ export default function Technologies() {
               <li>Chrome Extensions</li>
             </ul>
           </div>
-          
         </div>
       </main>
       <h2>
@@ -81,5 +80,5 @@ export default function Technologies() {
         </Link>
       </h2>
     </div>
-  )
+  );
 }

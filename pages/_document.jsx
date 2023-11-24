@@ -1,12 +1,15 @@
-import { Html, Head, Main, NextScript } from 'next/document';
+import { Html, Head, Main, NextScript } from "next/document";
 
-export default function MyDocument () {
+export default function MyDocument() {
   return (
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
         <meta name="description" content="Sajad Mahyaei" />
-        <meta name="keywords" content="Sajad, Mahyaei, Sajad Mahyaei, sajadmahyaei, sajadmahyaei.com, sajadmahyaei.net, sajadmahyaei.me, sajadmahyaei.org, sajadmahyaei.io, sajadmahyaei.dev, sajadmahyaei.xyz, sajadmahyaei.me" />
+        <meta
+          name="keywords"
+          content="Sajad, Mahyaei, Sajad Mahyaei, sajadmahyaei, sajadmahyaei.com, sajadmahyaei.net, sajadmahyaei.me, sajadmahyaei.org, sajadmahyaei.io, sajadmahyaei.dev, sajadmahyaei.xyz, sajadmahyaei.me"
+        />
         <meta name="author" content="Sajad Mahyaei" />
         <meta name="copyright" content="Sajad Mahyaei" />
         <meta name="robots" content="index, follow" />
@@ -20,12 +23,12 @@ export default function MyDocument () {
         <meta name="doc-rating" content="Safe For Kids" />
         <meta name="doc-style" content="Normal" />
         <meta name="doc-subject" content="Sajad Mahyaei" />
-        <link rel="icon" href="/favicon.webp" /> 
-        </Head>
+        <link rel="icon" href="/favicon.webp" />
+      </Head>
       <body>
         <Main />
         <NextScript />
       </body>
     </Html>
-    )
+  );
 }
