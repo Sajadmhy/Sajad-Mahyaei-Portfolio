@@ -64,20 +64,6 @@ export default function Home() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://twitter.com/sajadmhy"
-          >
-            <Image
-              src="/twitter-icon.webp"
-              width={40}
-              height={40}
-              alt="twitter Icon"
-              priority={true}
-            />
-          </a>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
             href="https://github.com/sajadmhy"
           >
             <Image
@@ -89,7 +75,7 @@ export default function Home() {
             />
           </a>
 
-          <a href="mailto:hi@sajadm.tech">
+          <a href="mailto:sajad.mahyaei@gmail.com">
             <Image
               src="/email.webp"
               width={40}
