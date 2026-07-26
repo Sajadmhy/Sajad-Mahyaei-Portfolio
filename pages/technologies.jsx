@@ -1,13 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Bio.module.css";
-import { useContext } from "react";
-import { ThemeContext } from "../theme/Theme";
 import Head from "next/head";
+import ProfileImage from "../components/ProfileImage";
 
 export default function Technologies() {
-  const [theme] = useContext(ThemeContext);
-
   return (
     <div className={styles.container}>
       <Head>
@@ -20,13 +16,7 @@ export default function Technologies() {
             <span className={styles.backArrow}>&larr;</span>
           </a>
         </Link>
-        <Image
-          src={theme === "light" ? "/profile.webp" : "/batman-profile.webp"}
-          width={200}
-          height={200}
-          alt="Sajad Mahyaei"
-          priority={true}
-        />
+        <ProfileImage />
         <h1 className={styles.title}>
           Technologies <span className={styles.emoji}>🔧</span>
         </h1>

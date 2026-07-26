@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Bio.module.css";
 import { useContext } from "react";
 import { ThemeContext } from "../theme/Theme";
 import Head from "next/head";
+import ProfileImage from "../components/ProfileImage";
 
 export default function Bio() {
   const [theme] = useContext(ThemeContext);
@@ -20,13 +20,7 @@ export default function Bio() {
             <span className={styles.backArrow}>&larr;</span>
           </a>
         </Link>
-        <Image
-          src={theme === "light" ? "/profile.webp" : "/batman-profile.webp"}
-          width={200}
-          height={200}
-          alt="Sajad Mahyaei"
-          priority={true}
-        />
+        <ProfileImage />
         <h1 className={styles.title}>
           Biography <span className={styles.emoji}>📝</span>
         </h1>

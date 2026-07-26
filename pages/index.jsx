@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { useContext } from "react";
 import { ThemeContext } from "../theme/Theme";
+import ProfileImage from "../components/ProfileImage";
 
 export default function Home() {
   const [theme] = useContext(ThemeContext);
@@ -28,13 +29,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image
-          src={theme === "light" ? "/profile.webp" : "/batman-profile.webp"}
-          width={200}
-          height={200}
-          alt="Sajad Mahyaei"
-          priority={true}
-        />
+        <ProfileImage />
 
         <h1 className={styles.title}>
           Hi there{" "}
