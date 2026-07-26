@@ -30,16 +30,22 @@ export default function Experience() {
             </h2>
             <p>
               <li>
-                Developed and managed a dynamic API for job advertisement
-                scraping
+                Built end-to-end recruiter workflows in a multi-tenant SaaS:
+                GraphQL APIs (Fastify, type- graphql, PostgreSQL) plus a
+                SolidJS/TypeScript client
               </li>
               <li>
-                Designed and implemented a custom Chrome extension enhancing
-                LinkedIn&apos;s recruiter functionalities
+                Designed AI-driven CV features across the stack using
+                OpenAI/Groq with structured schemas, prompt engineering, and
+                TipTap-based editing UX
               </li>
               <li>
-                Designed and developed a comprehensive full stack web
-                application empowering users to craft compelling CVs
+                Owned the CV template/placeholder system from API through
+                editor, Viewer, and download flows
+              </li>
+              <li>
+                Implemented async CV pipelines with BullMQ (parsing, rendering,
+                AI generation, compare-CV)
               </li>
             </p>
           </div>
