@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Sajad Mahyaei</title>
-        <meta property="og:url" content="https://sajadm.me/" />
+        <meta property="og:url" content="https://sajad.dev/" />
         <meta
           name="description"
           content="A Digital Marketer turned Front End Software Engineer."
@@ -104,7 +104,7 @@ export default function Home() {
             />
           </a>
 
-          <a href="/Sajad-Mahyaei-Web-Dev.pdf" download>
+          <a href="/Sajad-Mahyaei-Software-Engineer.pdf" download>
             <Image
               src="/resume-icon.webp"
               width={35}
