@@ -23,43 +23,63 @@ export default function Technologies() {
 
         <div className={styles.grid}>
           <div className={styles.card}>
-            <h2>Front End Techs</h2>
+            <h2>Frontend</h2>
             <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>React.js</li>
+              <li>SolidJS</li>
               <li>Next.js</li>
-              <li>TypeScript</li>
-              <li>MaterialUI</li>
-              <li>TailwindCSS</li>
-              <li>Bootstrap</li>
-              <li>Styled Components</li>
+              <li>React.js</li>
+              <li>TipTap</li>
+              <li>Vite</li>
+              <li>Tailwind CSS</li>
+              <li>TanStack Query</li>
+              <li>GraphQL (Apollo / codegen)</li>
+              <li>Chrome Extensions</li>
             </ul>
           </div>
 
           <div className={styles.card}>
-            <h2>Back End Techs</h2>
+            <h2>Backend</h2>
             <ul>
               <li>Node.js</li>
-              <li>Express.js</li>
-              <li>GraphQL</li>
-              <li>RestAPI</li>
-              <li>Nest.js</li>
-              <li>PHP</li>
-              <li>MongoDB</li>
-              <li>Strapi.io</li>
+              <li>Fastify</li>
+              <li>type-graphql</li>
+              <li>PostgreSQL</li>
+              <li>Zapatos</li>
+              <li>BullMQ</li>
+              <li>Elasticsearch</li>
             </ul>
           </div>
 
           <div className={styles.card}>
-            <h2>Others</h2>
+            <h2>AI / Product</h2>
             <ul>
+              <li>OpenAI</li>
+              <li>Groq</li>
+              <li>Prompt engineering</li>
+              <li>Structured JSON outputs</li>
+              <li>CV generation &amp; comparison</li>
+            </ul>
+          </div>
+
+          <div className={styles.card}>
+            <h2>Tooling &amp; Quality</h2>
+            <ul>
+              <li>Vitest</li>
+              <li>Playwright</li>
+              <li>GraphQL Codegen</li>
+              <li>Docker</li>
               <li>Git</li>
-              <li>Jest</li>
-              <li>Netlify</li>
-              <li>Vercel</li>
-              <li>Chrome Extensions</li>
+              <li>PostHog / product analytics</li>
+            </ul>
+          </div>
+
+          <div className={styles.card}>
+            <h2>Practices</h2>
+            <ul>
+              <li>REST / GraphQL API design</li>
+              <li>Background jobs</li>
+              <li>Responsive UI</li>
+              <li>Web Scraping</li>
             </ul>
           </div>
         </div>
