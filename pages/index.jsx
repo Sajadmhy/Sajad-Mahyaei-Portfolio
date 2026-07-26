@@ -130,8 +130,8 @@ export default function Home() {
 
           <Link href="/experience">
             <a className={styles.card}>
-              <h2>Past Experience &rarr;</h2>
-              <p>My Experience working on different projects</p>
+              <h2>Experiences &rarr;</h2>
+              <p>My Experience working as a Software Engineer</p>
             </a>
           </Link>
 
