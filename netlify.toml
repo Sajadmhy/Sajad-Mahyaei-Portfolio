@@ -1,3 +1,6 @@
+[build.environment]
+  NODE_VERSION = "18"
+
 [[headers]]
   for = "/*.webp"
   [headers.values]
