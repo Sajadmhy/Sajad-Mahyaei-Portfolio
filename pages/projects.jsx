@@ -36,7 +36,7 @@ export default function Projects() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.rocketie.com"
+                href="https://rocketie.sajad.dev"
                 className={styles.preview}
               >
                 <button>Preview</button>
@@ -93,7 +93,7 @@ export default function Projects() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://replit.sajadm.me"
+                href="https://lambent-custard-003002.netlify.app/"
                 className={styles.preview}
               >
                 <button>Preview</button>
