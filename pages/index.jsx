@@ -12,11 +12,11 @@ const SITE_DESCRIPTION =
 const SERVICES = [
   {
     title: "Chrome Extensions",
-    text: "Custom browser extensions that automate repetitive tasks and plug straight into the tools your team already uses.",
+    text: "I shipped a Chrome extension that extends LinkedIn Recruiter for over 20,000 users. I can build one that plugs your workflow into the tools your team already uses.",
   },
   {
     title: "HR & Recruiting Tools",
-    text: "Recruiter workflows, AI-powered CV parsing and generation, and internal dashboards that save your hiring team hours every week.",
+    text: "From job-advert scraping APIs to an AI-powered CV builder used by tens of thousands, I build hiring tools that save recruiters hours every week.",
   },
   {
     title: "Websites That Convert",
