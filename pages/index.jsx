@@ -2,29 +2,42 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { ThemeContext } from "../theme/Theme";
 import ProfileImage from "../components/ProfileImage";
 
+const SITE_DESCRIPTION =
+  "Sajad Mahyaei, full stack developer with a marketing background. I build fast websites and web apps that bring in customers.";
+
+const SERVICES = [
+  {
+    title: "Chrome Extensions",
+    text: "Custom browser extensions that automate repetitive tasks and plug straight into the tools your team already uses.",
+  },
+  {
+    title: "HR & Recruiting Tools",
+    text: "Recruiter workflows, AI-powered CV parsing and generation, and internal dashboards that save your hiring team hours every week.",
+  },
+  {
+    title: "Websites That Convert",
+    text: "Fast, SEO-friendly websites and web apps built by a former digital marketer, designed to turn visitors into customers.",
+  },
+];
+
 export default function Home() {
   const [theme] = useContext(ThemeContext);
+  const [showServices, setShowServices] = useState(false);
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>Sajad Mahyaei</title>
+        <title>{SITE_DESCRIPTION}</title>
         <meta property="og:url" content="https://sajad.dev/" />
-        <meta
-          name="description"
-          content="A Digital Marketer turned Front End Software Engineer."
-        />
+        <meta name="description" content={SITE_DESCRIPTION} />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Sajad Mahyaei" />
-        <meta
-          property="og:description"
-          content="A Digital Marketer turned Front End Software Engineer."
-        />
+        <meta property="og:description" content={SITE_DESCRIPTION} />
         <meta property="og:image" content="/favicon.webp" />
       </Head>
 
@@ -95,6 +108,37 @@ export default function Home() {
             />
           </a>
         </div>
+
+        <section className={styles.workWithMe}>
+          <button
+            type="button"
+            className={`${styles.card} ${styles.toggleCard}`}
+            aria-expanded={showServices}
+            aria-controls="work-with-me-services"
+            onClick={() => setShowServices(!showServices)}
+          >
+            <span className={styles.toggleTitle}>
+              Work with me {showServices ? <>&darr;</> : <>&rarr;</>}
+            </span>
+            <span className={styles.toggleText}>
+              See how I can help your business grow
+            </span>
+          </button>
+
+          {showServices && (
+            <div id="work-with-me-services" className={styles.serviceGrid}>
+              {SERVICES.map(({ title, text }) => (
+                <div key={title} className={styles.serviceCard}>
+                  <h3>{title}</h3>
+                  <p>{text}</p>
+                  <a className={styles.ctaButton} href="mailto:hello@sajad.dev">
+                    Get in touch
+                  </a>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
 
         <div className={styles.grid}>
           <Link href="/bio">

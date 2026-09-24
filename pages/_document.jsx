@@ -5,11 +5,6 @@ export default function MyDocument() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
-        <meta name="description" content="Sajad Mahyaei" />
-        <meta
-          name="keywords"
-          content="Sajad, Mahyaei, Sajad Mahyaei, sajadmahyaei, sajadmahyaei.com, sajadmahyaei.net, sajadmahyaei.me, sajadmahyaei.org, sajadmahyaei.io, sajadmahyaei.dev, sajadmahyaei.xyz, sajadmahyaei.me"
-        />
         <meta name="author" content="Sajad Mahyaei" />
         <meta name="copyright" content="Sajad Mahyaei" />
         <meta name="robots" content="index, follow" />

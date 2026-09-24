@@ -125,6 +125,86 @@
   line-height: 1.5;
 }
 
+.workWithMe {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.toggleCard {
+  display: block;
+  width: 360px;
+  max-width: 100%;
+  margin: 1rem auto;
+  font: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.toggleTitle {
+  display: block;
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.toggleText {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.serviceGrid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.serviceCard {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+}
+
+.serviceCard:hover {
+  border-color: #0070f3;
+}
+
+.serviceCard h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.serviceCard p {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.ctaButton {
+  align-self: flex-start;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background-color: #0070f3;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.15s ease;
+}
+
+.ctaButton:hover,
+.ctaButton:focus {
+  background-color: rgb(80, 156, 255);
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -138,6 +218,13 @@
   .card {
   width: 80%;
 }
+  .serviceGrid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .serviceCard {
+    width: 80%;
+  }
 }
 
 
