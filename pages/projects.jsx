@@ -31,6 +31,7 @@ export default function Projects() {
               width={300}
               height={170}
               alt="rocketie website"
+              priority
             />
             <div className={styles.btns}>
               <a
@@ -56,6 +57,7 @@ export default function Projects() {
               width={300}
               height={170}
               alt="lolo website"
+              priority
             />
             <div className={styles.btns}>
               <a
@@ -80,6 +82,7 @@ export default function Projects() {
               width={300}
               height={170}
               alt="replit careers"
+              priority
             />
             <div className={styles.btns}>
               <a
@@ -110,6 +113,7 @@ export default function Projects() {
               width={300}
               height={170}
               alt="chat app project"
+              loading="eager"
             />
             <div className={styles.btns}>
               <a
@@ -140,6 +144,7 @@ export default function Projects() {
               width={300}
               height={170}
               alt="gmail clone project"
+              loading="eager"
             />
             <div className={styles.btns}>
               <a
@@ -173,6 +178,7 @@ export default function Projects() {
               width={300}
               height={110}
               alt="crud exchange app"
+              loading="eager"
             />
             <div className={styles.btns}>
               <a
@@ -206,6 +212,7 @@ export default function Projects() {
               width={300}
               height={170}
               alt="location sharing modal"
+              loading="eager"
             />
             <div className={styles.btns}>
               <a
@@ -236,6 +243,7 @@ export default function Projects() {
               width={300}
               height={150}
               alt="Battleship"
+              loading="eager"
             />
             <div className={styles.btns}>
               <a
@@ -266,6 +274,7 @@ export default function Projects() {
               width={300}
               height={150}
               alt="memory card game"
+              loading="eager"
             />
             <div className={styles.btns}>
               <a

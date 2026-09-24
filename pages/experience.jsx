@@ -35,10 +35,10 @@ export default function Experience() {
               </li>
               <li>
                 Shipped Chrome extension that extended LinkedIn Recruiter
-                workflows for over 20000 users / agencies.
+                workflows for over 20,000 users / agencies.
               </li>
               <li>
-                Delivered full-stack CV builder (React/Node) used by tens of
+                Delivered full-stack CV builder (Solid/Node) used by tens of
                 thousands users to generate application-ready CVs.
               </li>
             </p>
