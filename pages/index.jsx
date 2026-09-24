@@ -11,16 +11,19 @@ const SITE_DESCRIPTION =
 
 const SERVICES = [
   {
+    title: "Websites That Convert",
+    text: "Fast, SEO-friendly websites and web apps built by a former digital marketer, designed to turn visitors into customers.",
+    subject: "Website project",
+  },
+  {
     title: "Chrome Extensions",
-    text: "I shipped a Chrome extension that extends LinkedIn Recruiter for over 20,000 users. I can build one that plugs your workflow into the tools your team already uses.",
+    text: "I shipped a Chrome extension that extends LinkedIn Recruiter for over 20,000 users. I can build one that connects your workflow to the tools your team already uses.",
+    subject: "Chrome extension project",
   },
   {
     title: "HR & Recruiting Tools",
     text: "From job-advert scraping APIs to an AI-powered CV builder used by tens of thousands, I build hiring tools that save recruiters hours every week.",
-  },
-  {
-    title: "Websites That Convert",
-    text: "Fast, SEO-friendly websites and web apps built by a former digital marketer, designed to turn visitors into customers.",
+    subject: "HR tool project",
   },
 ];
 
@@ -53,10 +56,7 @@ export default function Home() {
 
         <p className={styles.description}>
           I&apos;m {theme === "light" ? "Sajad" : "Batman"}, a Full Stack Web
-          Developer at{" "}
-          <a target="_blank" rel="noreferrer" href="https://www.paiger.co">
-            Paiger
-          </a>
+          Developer
         </p>
 
         <div className={styles.icons}>
@@ -127,11 +127,16 @@ export default function Home() {
 
           {showServices && (
             <div id="work-with-me-services" className={styles.serviceGrid}>
-              {SERVICES.map(({ title, text }) => (
+              {SERVICES.map(({ title, text, subject }) => (
                 <div key={title} className={styles.serviceCard}>
                   <h3>{title}</h3>
                   <p>{text}</p>
-                  <a className={styles.ctaButton} href="mailto:hello@sajad.dev">
+                  <a
+                    className={styles.ctaButton}
+                    href={`mailto:hello@sajad.dev?subject=${encodeURIComponent(
+                      subject
+                    )}`}
+                  >
                     Get in touch
                   </a>
                 </div>
