@@ -23,6 +23,40 @@ export default function Projects() {
 
         <div className={styles.grid}>
           <div className={styles.card}>
+            <h2>Cola Gummy</h2>
+            <p>
+              An interactive 3D gummy you can stretch, twist and slice, with
+              real-time soft-body physics on WebGPU
+            </p>
+            <div className={styles.space}></div>
+            <Image
+              src="/cola-gummy.webp"
+              width={300}
+              height={170}
+              alt="cola gummy 3d soft-body simulation"
+              priority
+            />
+            <div className={styles.btns}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Sajadmhy/cola-gummy"
+                className={styles.code}
+              >
+                <button>Code</button>
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://cola.sajad.dev"
+                className={styles.preview}
+              >
+                <button>Preview</button>
+              </a>
+            </div>
+          </div>
+
+          <div className={styles.card}>
             <h2>Rocketie Website</h2>
             <p>Developed an SEO-friendly NFT website</p>
             <div className={styles.space}></div>
